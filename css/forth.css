@@ -1,0 +1,134 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a{ 
+    text-decoration:none !important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    display:block;
+    width:87px;
+    height:42px;
+    
+    
+}
+img{
+    -webkit-touch-callout: none;
+}
+.init,
+.game {
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.init {
+    width:320px;
+    height:515px;
+    background-image: url(../img/forth/bg41.png);
+    background-size: 100% 100%;
+}
+
+.start {
+
+    position: absolute;
+    width: 170px;
+    height: 404px;
+    left: 50px;
+    top: 90px;
+    background-image: url(../img/forth/bg43.png);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+.start:hover{
+    opacity:1;
+    background-size: 100% 100%;
+}
+.prompt{
+    position:absolute;
+    width:120px;
+    height:80px;
+    left:140px;
+    top:250px;
+    background-image:url(../img/forth/bg42.png);
+    background-size:100% 100%;
+
+    
+}
+
+.game {
+    width:320px;
+    height:515px;
+    display: none;
+    background-image: url(../img/forth/bg44.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.girl{
+    width:120px;
+    height:240px;
+    position:absolute;
+    bottom:10px;
+    left:50%;
+}
+.fruit{
+    width:33px;
+    height:47px;
+    position:absolute;
+}
+.game-over{
+    display:none;
+    position:absolute;
+    width:288px;
+    height:253px;
+    left:10px;
+    top:100px;
+    background-image:url(../img/forth/bg48.png);
+    background-size:100% 100%;
+
+}
+.repeat{
+    display:none;
+    position:absolute;
+    width:87px;
+    height:42px;
+    left:200px;
+    top:300px;
+    background-image:url(../img/forth/bg49.png);
+    background-size:100% 100%;
+
+}
+.score{
+    position:absolute;
+    width:59px;
+    height:14px;
+    right:10px;
+    background-image:url(../img/forth/bg47.png);
+    background-size:100% 100%;
+}
+.finish{
+    display:none;
+    position:absolute;
+    width:288px;
+    height:253px;
+    left:10px;
+    top:100px;
+    background-image: url(../img/forth/bg410.png);
+    background-size:100% 100%;
+}
+
+.next{
+    display:none;
+    position:absolute;
+    width:87px;
+    height:42px;
+    left:200px;
+    top:300px;
+    background-image:url(../img/forth/bg411.png);
+    background-size:100% 100%;
+}

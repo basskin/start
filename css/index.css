@@ -1,0 +1,90 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a{ 
+    text-decoration:none !important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    display:block;
+    width:87px;
+    height:42px;
+    
+    
+}
+img{
+    -webkit-touch-callout: none;
+}
+.init,
+.game {
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.init {
+    width:320px;
+    height:515px;
+    background-image: url(../img/first/bg7.png);
+    background-size: 100% 100%;
+}
+
+.start{
+    position:absolute;
+    width:69px;
+    height:17px;
+    background-image: url(../img/first/bg1.png);
+    background-size: 100% 100%;
+    left:120px;
+    top:330px;
+}
+
+.letter{
+    width:320px;
+    height:515px;
+    display: none;
+    background-image: url(../img/first/bg3.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.paper{
+    width:320px;
+    height:515px;
+    display: none;
+    background-image: url(../img/first/bg4.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.game{
+    width:320px;
+    height:515px;
+    display: none;
+    background-image: url(../img/first/bg5.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.camera{
+    width:71px;
+    height:49px;
+    position:absolute;
+    background-image: url(../img/first/bg2.png);
+    background-size:100% 100%;
+    top:80px;
+    left:130px;
+}
+.album{
+    width:45px;
+    height:105px;
+    position:absolute;
+    background-image: url(../img/first/bg6.png);
+    background-size: 100% 100%;
+    top:400px;
+    left:20px;
+}

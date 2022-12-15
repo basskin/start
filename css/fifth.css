@@ -1,0 +1,123 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a{ 
+    text-decoration:none !important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    display:block;
+    width:87px;
+    height:42px;
+    
+    
+}
+img{
+    -webkit-touch-callout: none;
+}
+.init,
+.game {
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.init {
+    width:320px;
+    height:515px;
+    background-image: url(../img/fifth/bg51.png);
+    background-size: 100% 100%;
+}
+.prompt{
+    position:absolute;
+    width:126px;
+    height:86px;
+    left:170px;
+    top:230px;
+    background-image:url(../img/fifth/bg54.png);
+    background-size:100% 100%;
+
+    
+}
+.game {
+    width:320px;
+    height:515px;
+    display: none;
+    background-image: url(../img/fifth/bg52.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.boy{
+    width:178px;
+    height:317px;
+    position:absolute;
+    bottom:40px;
+    left:50px;
+}
+.progress{
+    width:73px;
+    height:285px;
+    position:absolute;
+    left:230px;
+    bottom:60px;
+}
+
+.pro{
+    width:15px;
+    height:90px;
+    position:absolute;
+    left:260px;
+    bottom:78px
+}
+
+
+.game-over{
+    display:none;
+    position:absolute;
+    width:288px;
+    height:253px;
+    left:10px;
+    top:100px;
+    background-image:url(../img/fifth/bg58.png);
+    background-size:100% 100%;
+
+}
+
+.repeat{
+    display:none;
+    position:absolute;
+    width:87px;
+    height:42px;
+    left:200px;
+    top:300px;
+    background-image:url(../img/fifth/bg59.png);
+    background-size:100% 100%;
+
+}
+
+.finish{
+    display:none;
+    position:absolute;
+    width:288px;
+    height:253px;
+    left:10px;
+    top:100px;
+    background-image: url(../img/fifth/bg510.png);
+    background-size:100% 100%;
+}
+
+.next{
+    display:none;
+    position:absolute;
+    width:87px;
+    height:42px;
+    left:200px;
+    top:300px;
+    background-image:url(../img/fifth/bg511.png);
+    background-size:100% 100%;
+}
